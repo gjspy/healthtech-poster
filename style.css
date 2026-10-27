@@ -1,0 +1,56 @@
+:root {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100vw;
+	height: fit-content;
+	min-height: 100vh;
+	padding: 10px;
+	margin: 0;
+	box-sizing: border-box;
+	background: linear-gradient(#333333, #000000);
+	
+	display: block;
+}
+
+h1:first-child {
+	margin-top: 0;
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	color: #ffffff;
+	font-weight: 800;
+}
+
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	color: #ffffff;
+}
+
+.break {
+	margin-top: 100px;
+}
+
+span {
+	display: block;
+}
+
+p {
+	font-family: 'Montserrat', sans-serif;
+	color: #dadada;
+	font-weight: 400;
+}
+
+a,
+a:visited {
+	font-weight: 600;
+	color: #ffffff;
+}
+
+h1, span, h2, p {
+	display: block;
+	width: fit-content;
+}
